@@ -1,0 +1,41 @@
+{
+	"default": {
+		"PLATFORM_NAME": "Spinsoft Training Academy",
+		"SUPPORT_SITE_LINK": "http://spinta.in",
+		"TIME_ZONE": "Asia/Jakarta",
+		"PREVIEW_LMS_BASE": "preview.spinta.in",
+		"CONTACT_EMAIL": "naresh@spinsoft.in",
+		"DEFAULT_FROM_EMAIL": "naresh@spinsoft.in",
+		"TECH_SUPPORT_EMAIL": "naresh@spinsoft.in",
+		"PAYMENT_SUPPORT_EMAIL": "naresh@spinsoft.in",
+		"DEFAULT_FEEDBACK_EMAIL": "naresh@spinsoft.in",
+		"PRESS_EMAIL": "naresh@spinsoft.in",
+		"SERVER_EMAIL": "naresh@spinsoft.in",
+		"UNIVERSITY_EMAIL": "naresh@spinsoft.in",
+		"EMAIL_HOST": "smtp.gmail.com",
+		"EMAIL_PORT": 587,
+		"EMAIL_HOST_USER": "naresh@spinsoft.in",
+		"EMAIL_HOST_PASSWORD": "spinteam2017"
+	},
+	"lms_env_json": {
+		"DEFAULT_SITE_THEME": "contoso-theme",
+		"ENABLE_COMPREHENSIVE_THEMING": true
+	},
+	"cms_env_json": {},
+	"lms_cms_auth_json": {},
+	"lms_auth_json": {
+
+	},
+	"cms_auth_json": {},
+	"others": {
+		"lms_env_json": {
+			"COMPREHENSIVE_THEME_DIRS": ["/home/bitnami/apps/edx/edx-themes"]
+		},
+		"lms_auth_json": {
+			"SOCIAL_AUTH_OAUTH_SECRETS": {
+				"google-oauth2": "vtC80vI_4prd07j9nFd8VgGV"
+			}
+		}
+	}
+
+}
