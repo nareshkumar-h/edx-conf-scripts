@@ -56,3 +56,12 @@ Note: Restart Servers
        
        /opt/bitnami/ctlscript.sh (start|stop|restart|status) rabbitmq
 
+## Delete the default course
+https://openedx.atlassian.net/wiki/spaces/OXA/pages/158194136/How+to+delete+a+course
+* /opt/bitnami/apps/edx/edx-platform# python.edxapp ./manage.py lms dump_course_ids --settings aws
+
+* python.edxapp ./manage.py cms --settings=aws delete_orphans course-v1:edX+DemoX+Demo_Course --commit
+
+
+* python.edxapp ./manage.py cms --settings=aws delete_course course-v1:edX+DemoX+Demo_Course
+
