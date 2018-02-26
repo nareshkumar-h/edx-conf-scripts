@@ -65,3 +65,7 @@ https://openedx.atlassian.net/wiki/spaces/OXA/pages/158194136/How+to+delete+a+co
 
 * python.edxapp ./manage.py cms --settings=aws delete_course course-v1:edX+DemoX+Demo_Course
 
+## Compile Theme Assets
+* sudo /opt/bitnami/apps/edx/bin/paver.edxapp update_assets cms --settings=aws
+
+* sudo /opt/bitnami/apps/edx/bin/paver.edxapp update_assets lms --settings=aws
