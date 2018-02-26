@@ -1,7 +1,4 @@
-sudo /opt/bitnami/apps/edx/bnconfig --machine_hostname spinta.in
-sudo mv /opt/bitnami/apps/edx/bnconfig /opt/bitnami/apps/edx/bnconfig.back
 
-Reference:https://docs.bitnami.com/general/apps/edx/
 
 
 # openedx-configuration
@@ -24,6 +21,12 @@ Reference:https://docs.bitnami.com/general/apps/edx/
 $ sudo /opt/bitnami/apps/edx/bnconfig --disable_banner 1      
 
 Note: Without Restarting the server , bitnami banner image will be removed.
+
+sudo /opt/bitnami/apps/edx/bnconfig --machine_hostname spinta.in
+
+sudo mv /opt/bitnami/apps/edx/bnconfig /opt/bitnami/apps/edx/bnconfig.back
+
+Reference:https://docs.bitnami.com/general/apps/edx/
 
 ## Step 2: Change Platform Name [ Create a branch - task1-change-platform-name ]
 * cms.env.json [ "PLATFORM_NAME": "Spinsoft University"]
