@@ -12,10 +12,10 @@
 		"PRESS_EMAIL": "naresh@spinsoft.in",
 		"SERVER_EMAIL": "naresh@spinsoft.in",
 		"UNIVERSITY_EMAIL": "naresh@spinsoft.in",
-		"EMAIL_HOST": "smtp.gmail.com",
+		"EMAIL_HOST": "smtp.zoho.com",
 		"EMAIL_PORT": 587,
 		"EMAIL_HOST_USER": "naresh@spinsoft.in",
-		"EMAIL_HOST_PASSWORD": "spinteam2017"
+		"EMAIL_HOST_PASSWORD": "qSBdKQInFgfj"
 	},
 	"lms_env_json": {
 		"DEFAULT_SITE_THEME": "contoso-theme",
